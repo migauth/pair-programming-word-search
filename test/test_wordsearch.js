@@ -2,7 +2,6 @@ const chai = require('chai');
 const assert = chai.assert;
 
 const wordSearch = require('../wordsearch.js')
-
 describe("#wordSearch()", function () {
   it("should return false if letters array is empty", function () {
     const result = wordSearch([], 'FRANK')
